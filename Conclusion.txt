@@ -1,0 +1,66 @@
+1. Hello World (Conceptos Básicos)
+Es el punto de partida. Aquí aprendes la estructura mínima de un programa.
+
+Función main: Es el motor que arranca el código.
+
+Variables:
+
+val: Constante (no cambia).
+
+var: Variable (puede cambiar).
+
+Strings: Uso de $ para imprimir variables dentro de texto.
+
+2. Tipos Básicos (Basic Types)
+Kotlin es un lenguaje de tipado estático, lo que significa que cada variable tiene un tipo definido, aunque el lenguaje suele adivinarlo por ti (inferencia).
+
+Enteros: Int, Long, Byte, Short.
+
+Decimales: Double, Float.
+
+Texto: String y Char.
+
+Lógica: Boolean (true o false).
+
+3. Colecciones (Collections)
+Cómo agrupar datos de forma organizada.
+
+Listas: Ordenadas, permiten duplicados (listOf, mutableListOf).
+
+Sets: Elementos únicos, sin orden específico (setOf).
+
+Mapas: Pares de clave-valor, como un diccionario (mapOf).
+
+4. Flujo de Control (Control Flow)
+Cómo toma decisiones tu programa.
+
+If / Else: Condicionales estándar (en Kotlin pueden devolver un valor).
+
+When: Una versión más potente y limpia del "switch".
+
+Bucles: for (para recorrer rangos o listas) y while.
+
+5. Funciones (Functions)
+Bloques de código reutilizables.
+
+Parámetros: Valores que recibe la función.
+
+Retorno: El tipo de dato que devuelve (se indica con : al final de la firma).
+
+Funciones de una sola línea: Puedes usar = en lugar de llaves {} para funciones simples.
+
+6. Clases (Classes)
+La base de la Programación Orientada a Objetos.
+
+Propiedades: Variables dentro de la clase.
+
+Data Classes: Clases especiales diseñadas solo para almacenar datos (vienen con funciones útiles como toString automáticas).
+
+7. Null Safety (Seguridad contra Nulos)
+Esta es la característica estrella de Kotlin para evitar errores comunes (el famoso NullPointerException).
+
+Tipos no nulos: Por defecto, una variable no puede ser null.
+
+Tipos nulos: Se marcan con ? (ejemplo: String?).
+
+Operador Elvis: ?: sirve para dar un valor por defecto si algo es nulo.
