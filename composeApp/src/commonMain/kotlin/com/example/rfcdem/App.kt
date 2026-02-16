@@ -116,3 +116,4 @@ object RfcCalculator
         return cuatroLetras + cadenaFecha
     }
 }
+//hhge
