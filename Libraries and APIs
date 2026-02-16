@@ -1,0 +1,31 @@
+Exercise 1
+
+import kotlin.math.*
+
+fun calculateCompoundInterest(P: Double, r: Double, n: Int, t: Int): Double {
+    return P * (1 + r / n).pow(n * t)
+}
+
+fun main() {
+    val principal = 1000.0
+    val rate = 0.05
+    val timesCompounded = 4
+    val years = 5
+    val amount = calculateCompoundInterest(principal, rate, timesCompounded, years)
+    println("The accumulated amount is: $amount")
+}
+
+Exercise 2
+
+import kotlin.time.measureTime
+
+fun main() {
+    val timeTaken = measureTime {
+        val data = List(1000) { it * 2 }
+        val filteredData = data.filter { it % 3 == 0 }
+        val processedData = filteredData.map { it / 2 }
+        println("Processed data")
+    }
+
+    println("Time taken: $timeTaken")
+}
